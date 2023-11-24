@@ -8,6 +8,8 @@ Before running the script, make sure you have the required R packages installed:
 install.packages(c("rtracklayer", "GenomicRanges", "vroom"))
 ```
 
+**IMPORTANT NOTE:** This script needs these two column names available in your GWAS data ("chr" and "bp_hg19"). If their names are different in your input data, do not forget to change them in the script before using it.
+
 ## Data Processing Steps
 1. Reading GWAS data
 ```R
