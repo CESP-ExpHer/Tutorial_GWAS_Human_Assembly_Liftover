@@ -88,4 +88,4 @@ vroom_write(gwas_hg19_sel, file = "GWAS_hg38.txt", delim = "\t", quote = "none",
 - Verify that the required R packages are installed before running the script.
 
 # Tutorial for GWAS Data Liftover (from hg38 to hg19)
-Just simply use the exact procedure using *"hg38ToHg19.over.chain"* chain file this time (available in the [0_files](/0_files) folder).
+Just simply use the exact previous procedure, but this time use *"hg38ToHg19.over.chain"* chain file (available in the [0_files](/0_files) folder) and switch the variable names *"hg19"* and *"hg38"* in the script.
