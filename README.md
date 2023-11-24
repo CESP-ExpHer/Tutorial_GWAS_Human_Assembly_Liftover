@@ -1,4 +1,11 @@
 # Tutorial for GWAS Data Liftover (from hg19 to hg38)
+*Created by:* Yazdan Asgari<br>
+*Creation date:* 24 Nov 2023<br>
+*Update:* 24 Nov 2023<br>
+https://cesp.inserm.fr/en/equipe/exposome-and-heredity
+<br>
+<br>
+
 This repository contains an R script that performs the liftover of GWAS (Genome-Wide Association Study) data from hg19 to hg38 coordinates using the `rtracklayer`, `GenomicRanges`, and `vroom` packages. The liftover is achieved through the use of a chain file provided by UCSC.
 
 ## Prerequisites
