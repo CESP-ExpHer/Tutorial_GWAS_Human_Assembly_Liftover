@@ -39,7 +39,9 @@ str(gwas_hg19_sel)
 # It was downloaded from https://hgdownload.cse.ucsc.edu/goldenpath/hg38/liftOver/
 chain <- import.chain("hg19ToHg38.over.chain")
 ```
-You could also download the "chain file" from the [0_files](/0_files) folder.<br>
+You could also download the "chain file" from the [0_files](/0_files) folder.
+<br>
+<br>
 3. Creating GRanges object
 ```R
 gr <- makeGRangesFromDataFrame(gwas_hg19_sel, ignore.strand = TRUE, seqnames.field = "chr_str", start.field = "bp_hg19", end.field = "bp_hg19")
