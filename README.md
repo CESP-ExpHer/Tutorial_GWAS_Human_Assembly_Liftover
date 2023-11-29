@@ -30,7 +30,7 @@ head(gwas_hg19)
 gwas_hg19['chr_str'] <- paste0("chr", gwas_hg19$chr)
 
 gwas_hg19_sel <- gwas_hg19
-# Check data types of gwas_hg19
+# Check data types of gwas_hg19_sel
 str(gwas_hg19_sel)
 
 # Use this section ONLY if you have "NA" data in "bp_hg19" column
