@@ -30,6 +30,10 @@ head(gwas_hg19)
 gwas_hg19['chr_str'] <- paste0("chr", gwas_hg19$chr)
 
 gwas_hg19_sel <- gwas_hg19
+
+# IMPORTANT NOTE: We saw that sometimes if you did not add "strand" column info on your data, some bp_hg38 positions will add with +1 bp in the created hg38 file !!! So, we added this column to the data as well.
+gwas_hg19_sel["strand"] <- "+"
+
 # Check data types of gwas_hg19_sel
 str(gwas_hg19_sel)
 
