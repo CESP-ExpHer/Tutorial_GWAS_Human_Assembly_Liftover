@@ -70,7 +70,7 @@ gwas_hg19_sel$rownames_col <- as.numeric(rownames(gwas_hg19_sel))
 head(gwas_hg19_sel)
 match_pos <- match(gwas_hg19_sel$rownames_col, hg38_df$group)
 
-# Add the corresponding information from hg19_df to gwas_hg19_sel
+# Add the corresponding information from hg38_df to gwas_hg19_sel
 gwas_hg19_sel$group[!is.na(match_pos)] <- hg38_df$group[match_pos[!is.na(match_pos)]]
 gwas_hg19_sel$seqnames[!is.na(match_pos)] <- hg38_df$seqnames[match_pos[!is.na(match_pos)]]
 gwas_hg19_sel$bp_hg38[!is.na(match_pos)] <- hg38_df$start[match_pos[!is.na(match_pos)]]
