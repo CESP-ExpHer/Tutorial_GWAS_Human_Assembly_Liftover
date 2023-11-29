@@ -36,7 +36,7 @@ str(gwas_hg19_sel)
 # Use this section ONLY if you have "NA" data in "bp_hg19" column
 # Check for missing values in "bp_hg19" column. If so, it then removes them
 #sum(is.na(gwas_hg19_sel$bp_hg19))
-#gwas_hg19_sel <- gwas_hg19[!is.na(gwas_hg19$bp_hg19),]
+#gwas_hg19_sel <- gwas_hg19_sel[!is.na(gwas_hg19_sel$bp_hg19),]
 #sum(is.na(gwas_hg19_sel$bp_hg19))
 
 ```
