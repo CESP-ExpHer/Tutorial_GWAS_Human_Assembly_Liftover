@@ -1,7 +1,7 @@
 # Tutorial for GWAS Data Liftover (from hg19 to hg38)
 *Created by:* Yazdan Asgari<br>
 *Creation date:* 24 Nov 2023<br>
-*Update:* 24 Nov 2023<br>
+*Update:* Feb 2024<br>
 https://cesp.inserm.fr/en/equipe/exposome-and-heredity
 <br>
 <br>
